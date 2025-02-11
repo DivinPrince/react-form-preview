@@ -1,4 +1,8 @@
-import { useFormPreviewContext } from '../src'
+import React from 'react'
+
+// @ts-ignore
+import { FormPreviewProvider, useFormPreview, useFormPreviewContext } from 'react-form-preview'
+import { useForm } from 'react-hook-form'
 
 // Example of a custom preview component using shadcn/ui components
 type CustomFormData = {

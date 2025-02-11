@@ -1,5 +1,7 @@
+import React from 'react'
 import { useForm } from 'react-hook-form'
-import { useFormPreview, FormPreviewProvider } from '../src'
+// @ts-ignore
+import { useFormPreview, FormPreviewProvider } from 'react-form-preview'
 
 type FormData = {
   name: string
